@@ -5,7 +5,7 @@ import javax.swing.*;
 public class VentanaPrincipal extends JFrame {
 
     private JTextArea areaTexto;
-    private JButton btnCargar, btnGuardar;
+    private JButton btnCargar, btnGuardar,btnSalir;
     private File archivoEntrada;
     private Contadores contadores = new Contadores();
 
@@ -21,16 +21,19 @@ public class VentanaPrincipal extends JFrame {
 
         btnCargar = new JButton("Cargar archivo");
         btnGuardar = new JButton("Guardar Salida.txt");
+        btnSalir = new JButton("Salir");
 
         JPanel panelBotones = new JPanel();
         panelBotones.add(btnCargar);
         panelBotones.add(btnGuardar);
+        panelBotones.add(btnSalir); 
 
         add(scroll, BorderLayout.CENTER);
         add(panelBotones, BorderLayout.SOUTH);
 
         btnCargar.addActionListener(e -> cargarArchivo());
         btnGuardar.addActionListener(e -> guardarSalida());
+        btnSalir.addActionListener(e -> salirAplicacion());
 
         setVisible(true);
     }
@@ -57,4 +60,18 @@ public class VentanaPrincipal extends JFrame {
             JOptionPane.showMessageDialog(this, "Primero carga un archivo.");
         }
     }
+    private void salirAplicacion() {
+    int opcion = JOptionPane.showConfirmDialog(
+        this,
+        "¿Desea salir de la aplicación?",
+        "Confirmar salida",
+        JOptionPane.YES_NO_OPTION
+    );
+
+    if (opcion == JOptionPane.YES_OPTION) {
+        dispose();       // Cierra la ventana actual
+        System.exit(0);  // Termina la aplicación
+    }
+    }
+
 }
