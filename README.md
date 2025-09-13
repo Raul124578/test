@@ -11,13 +11,16 @@ El sistema reconoce y clasifica tokens como:
 Al finalizar, el programa genera un archivo de salida con el resumen de clasificación de tokens y, en caso de errores, reporta la línea y columna donde fueron encontrados.
 
 Tecnologías utilizadas
-Lenguaje de programación:
-•⁠  ⁠Java SE 17 (compatible con cualquier versión >= 8).
-•⁠  ⁠Entorno de desarrollo: Visual Studio Code con la extensión Extension Pack for Java.
-Librerías/Frameworks:
-•⁠  ⁠Swing (javax.swing) → para la interfaz gráfica (ventana, botones, área de texto).
-•⁠  ⁠AWT (java.awt) → para gestión de paneles, layouts y eventos.
-•⁠  ⁠Clases estándar de Java (⁠ java.io ⁠, ⁠ java.util ⁠, ⁠ java.lang ⁠) → manejo de archivos, colecciones y cadenas.
+
+Lenguaje de programación
+
+- Java SE 17 (compatible con cualquier versión >= 8).
+- Entorno de desarrollo: Visual Studio Code con la extensión Extension Pack for Java.
+
+Librerías/Frameworks
+- Swing (javax.swing): para la interfaz gráfica (ventana, botones, área de texto).
+- AWT (java.awt): para gestión de paneles, layouts y eventos.
+- Clases estándar de Java (⁠ java.io ⁠, ⁠ java.util ⁠, ⁠ java.lang ⁠): manejo de archivos, colecciones y cadenas.
 No se usaron librerías externas, únicamente librerías estándar de Java.
 
 Estructura de Carpetas
