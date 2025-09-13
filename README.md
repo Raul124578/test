@@ -1,6 +1,7 @@
 Proyecto 1 – Reconocedor de Tokens y Lexemas
 
 Este proyecto implementa un analizador léxico para un lenguaje de programación asignado, utilizando JFlex como herramienta principal.
+
 El sistema reconoce y clasifica tokens como:
 - Palabras reservadas (if, while, for, etc.)
 - Identificadores y variables
