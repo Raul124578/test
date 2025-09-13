@@ -48,17 +48,17 @@ Instrucciones de instalación y uso
 
 Capturas de pantalla del programa en funcionamiento
 
-- *Ventana inicial:*
+- Ventana inicial
   ![Interfaz gráfica](https://github.com/user-attachments/assets/0bf02964-ecff-4433-9eb9-8465c540f6ac)
 
 
-- *Archivo cargado
+- Archivo cargado
   ![Seleccionar archivo existente](https://github.com/user-attachments/assets/bbedc6a2-02c0-4679-9bb7-e9ebe5626e6a)
 
 
-- tokens clasificados:*
+- tokens clasificados
   ![Archivo de salida](https://github.com/user-attachments/assets/c0e01632-6eb6-4d6a-985f-eff2db9d2961)
   
-- *Resumen de conteos:*
+- Resumen de conteos
   ![Aplicación en funcionamiento](https://github.com/user-attachments/assets/00f85f5f-b0e9-4fbd-9c28-174f5fb591d7)
 
