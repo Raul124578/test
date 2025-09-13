@@ -35,3 +35,23 @@ ProyectoTokens
 - test/ #Archivos de prueba (entrada1.txt, entrada2.txt, etc.)
 - Salida.txt #Archivo generado con el resultado de la clasificación
 
+Instrucciones de instalación y uso
+1. *Clonar o descargar* el repositorio en tu computadora.
+2. Abrir la carpeta en *Visual Studio Code*.
+3. Instalar la extensión *Extension Pack for Java* (si no la tienes).
+4. Ejecutar el archivo Main.java (clic derecho → Run Java).
+5. En la ventana:
+----Presionar *“Cargar archivo”* y seleccionar un archivo de entrada (.txt con un token por línea).
+   - El resultado aparecerá en el área de texto.
+   - Puedes guardar el resultado en Salida.txt con el botón *“Guardar Salida”*.
+   - Salir con el botón *“Salir”*.
+
+Capturas de pantalla del programa en funcionamiento
+
+- *Ventana inicial:*
+  
+
+- *Archivo cargado y tokens clasificados:*
+  
+- *Resumen de conteos:*
+  
