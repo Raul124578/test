@@ -51,7 +51,10 @@ Capturas de pantalla del programa en funcionamiento
 - *Ventana inicial:*
   ![Interfaz gráfica](https://github.com/user-attachments/assets/0bf02964-ecff-4433-9eb9-8465c540f6ac)
 
-- *Archivo cargado y tokens clasificados:*
+- *Archivo cargado
+  ![Seleccionar archivo existente](https://github.com/user-attachments/assets/bbedc6a2-02c0-4679-9bb7-e9ebe5626e6a)
+
+- tokens clasificados:*
   ![Archivo de salida](https://github.com/user-attachments/assets/c0e01632-6eb6-4d6a-985f-eff2db9d2961)
   
 - *Resumen de conteos:*
