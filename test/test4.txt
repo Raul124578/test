@@ -1,0 +1,8 @@
+public class Errores {
+    public static void main(String[] args) {
+        int $var = 10;   // Error: identificador no válido en algunos analizadores
+        int 2numero = 20; // Error: identificador no puede empezar con número
+        int correcto = 5;
+        System.out.println(correcto);
+    }
+}

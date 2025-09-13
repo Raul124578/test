@@ -1,0 +1,13 @@
+public class Comentarios {
+    public static void main(String[] args) {
+        // Este es un comentario de una sola línea
+        int a = 3; // otro comentario
+        int b = 4;
+
+        /* Este es un comentario
+           de varias líneas */
+        int suma = a + b;
+
+        System.out.println("Suma = " + suma);
+    }
+}

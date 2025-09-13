@@ -1,0 +1,14 @@
+public class Factorial {
+    public static void main(String[] args) {
+        int numero = 5;
+        int factorial = 1;
+        int contador = 1;
+
+        do {
+            factorial = factorial * contador;
+            contador = contador + 1;
+        } while (contador <= numero);
+
+        System.out.println("El factorial de " + numero + " es: " + factorial);
+    }
+}
