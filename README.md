@@ -24,12 +24,14 @@ Librerías/Frameworks
 No se usaron librerías externas, únicamente librerías estándar de Java.
 
 Estructura de Carpetas
-ProyectoTokens/
-├── Main.java #Clase principal que inicia la aplicación
-├── VentanaPrincipal.java #Interfaz gráfica (botones, área de texto, eventos)
-├── AnalizadorLexico.java #Procesa el archivo, clasifica tokens y genera resultados
-├── Clasificador.java #Reglas para identificar tokens (reservadas, identificadores, etc.)
-├── Contadores.java #Manejo de conteos y generación de resúmenes
-├── test/ #Archivos de prueba (entrada1.txt, entrada2.txt, etc.)
-└── Salida.txt #Archivo generado con el resultado de la clasificación
+
+ProyectoTokens
+
+- Main.java #Clase principal que inicia la aplicación
+- VentanaPrincipal.java #Interfaz gráfica (botones, área de texto, eventos)
+- AnalizadorLexico.java #Procesa el archivo, clasifica tokens y genera resultados
+- Clasificador.java #Reglas para identificar tokens (reservadas, identificadores, etc.)
+- Contadores.java #Manejo de conteos y generación de resúmenes
+- test/ #Archivos de prueba (entrada1.txt, entrada2.txt, etc.)
+- Salida.txt #Archivo generado con el resultado de la clasificación
 
